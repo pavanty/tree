@@ -1,0 +1,88 @@
+.body {
+  margin: 0;
+}
+
+.container-fluid
+{
+background-image: url(../4.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+padding-right: 30px;
+
+}
+.name{
+  color:#696969;
+  position: absolute;
+  bottom: 380px;
+  left: 70px;
+
+
+}
+
+.navlink
+{
+  color: #696969;
+  font-weight: bold;
+  padding-right: 50px;
+  margin-left: 40px;
+
+}
+#carder
+{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#bottom{
+  background-color: #cfcec9;
+
+}
+
+.bottom-container
+{
+
+  padding-top: 50PX;
+  padding-bottom: 50PX;
+  text-align: center;
+}
+.bottom-container h2
+{
+  padding:30px;
+}
+#bottom-down{
+  padding-top: 50px;
+  text-align: center;
+  margin: 10px;
+
+}
+.social-icon
+{
+margin-left: 30px;
+color: black;
+}
+.bot p
+{
+  padding-top: 10px;
+  color: #A8A8A8;
+
+}
+@media (max-width:1232px) {
+  .name h1
+  {
+
+    top: 20px;
+font-size:25px;
+position: relative;
+top: 70px;
+  }
+  .container-fluid
+  {
+    background-image: url(../4.jpg);
+    height: 50vh;
+    background-size: cover;
+  }
+}
